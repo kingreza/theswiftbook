@@ -1,10 +1,29 @@
-# The Swift Book
-Learn Apple's Swift easily and share your knowledge by contributing fixes and additions back to The Swift Book.
+The Swift Book
+==============
 
-##Table of Contents
+Learn Apple's Swift easily and share your knowledge by contributing fixes and
+additions back to The Swift Book.
 
-##Writing New Content
+Table of Contents
+-----------------
 
-##Fixing Mistakes
+1.  The Basics
 
-##Vision and Goals
+2.  Structures
+
+3.  Classes
+
+4.  Protocols
+
+5.  Generics
+
+6.  Operator Overloading
+
+Writing New Content
+-------------------
+
+Fixing Mistakes
+---------------
+
+Vision and Goals
+----------------
