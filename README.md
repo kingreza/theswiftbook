@@ -7,17 +7,31 @@ additions back to The Swift Book.
 Table of Contents
 -----------------
 
-1.  The Basics
+1.  Introduction
 
-2.  Structures
+2.  The Basics
 
-3.  Classes
+3.  Structures
 
-4.  Protocols
+4.  Classes
 
-5.  Generics
+5.  Enumerations
 
-6.  Operator Overloading
+6.  Protocols
+
+7.  Generics
+
+8.  Operator Overloading
+
+9.  Concepts
+
+    -   Protocol Oriented Programming
+
+    -   Object Oriented Programming
+
+    -   Functional Programming
+
+    -   Functional Reactive Programming
 
 Writing New Content
 -------------------
