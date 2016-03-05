@@ -7,23 +7,23 @@ additions back to The Swift Book.
 Table of Contents
 -----------------
 
-1.  Introduction
+1.  [Introduction](<chapters/introduction.md>)
 
-2.  The Basics
+2.  [The Basics](<chapters/basics.md>)
 
-3.  Structures
+3.  [Structures](<chapters/structures.md>)
 
-4.  Classes
+4.  [Classes](<chapters/classes.md>)
 
-5.  Enumerations
+5.  [Enumerations](<chapters/enumerations.md>)
 
-6.  Protocols
+6.  [Protocols](<chapters/protocols.md>)
 
-7.  Generics
+7.  [Generics](<chapters/generics.md>)
 
-8.  Operator Overloading
+8.  [Operator Overloading](<operatoroverloading.md>)
 
-9.  Concepts
+9.  [Concepts](<chapters/concepts.md>)
 
     -   Protocol Oriented Programming
 
