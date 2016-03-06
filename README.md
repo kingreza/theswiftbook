@@ -18,9 +18,9 @@ GitHub already gives us many of the tools that we need:
 -   Releases, which will allow us to release official updates of this book, every now and then
 -   The distributed nature of Git, that allows contributors to write and update content, wherever they are and whenever they wish
 
+
 Table of Contents
 -----------------
-
 1.  [Introduction](<chapters/introduction.md>)
 2.  [The Basics](<chapters/basics.md>)
 3.  [Structures](<chapters/structures.md>)
