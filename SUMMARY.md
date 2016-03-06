@@ -4,4 +4,5 @@
 * [The Basics](chapters/basics.md)
 * [Structures](chapters/structures.md)
 * [Classes](chapters/classes.md)
+* Enumerations
 
