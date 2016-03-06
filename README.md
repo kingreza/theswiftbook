@@ -1,8 +1,7 @@
 The Swift Book
 ==============
 
-Learn Apple's Swift easily and share your knowledge by contributing fixes and
-additions back to The Swift Book.
+Learn Apple's Swift easily and share your knowledge by contributing fixes and additions back to The Swift Book.
 
 Goal & Vision
 -------------
@@ -10,9 +9,7 @@ Goal & Vision
 To create an open-source book, about Swift!
 
 Swift is an ever-changing language and to be able to stay on top of these
-changes, we need a new way of writing content. I don’t think any one author can
-keep a whole book always up to date with new Swift content, so why not leverage
-the power of GitHub?
+changes, we need a new way of writing content. I don't think any one author can keep a whole book always up to date with new Swift content, so why not leverage the power of GitHub?
 
 GitHub already gives us many of the tools that we need:
 
