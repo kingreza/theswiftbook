@@ -2,5 +2,5 @@
 
 * [Introduction](chapters/introduction.md)
 * [The Basics](chapters/basics.md)
-* Structures
+* [Structures](chapters/structures.md)
 
