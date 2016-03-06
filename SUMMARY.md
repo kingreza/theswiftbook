@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](chapters/introduction.md)
+* [Introduction](README.md)
 * [The Basics](chapters/basics.md)
 * [Structures](chapters/structures.md)
 * [Classes](chapters/classes.md)
