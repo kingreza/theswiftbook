@@ -1,11 +1,9 @@
 The Swift Book
 ==============
-
 The first open-source Swift book, viewed and editable by everyone!
 
 Goal & Vision
 -------------
-
 To create an open-source book, about Swift!
 
 Swift is an ever-changing language and to be able to stay on top of these changes, we need a new way of writing content. I don't think any one author can keep a whole book always up to date with new Swift content, so why not leverage the power of GitHub?
