@@ -8,6 +8,4 @@
 * [Protocols](chapters/protocols.md)
 * [Generics](chapters/generics.md)
 * [Operators](chapters/operators.md)
-* [Concepts](chapters/concepts.md)
-   * Protocol Oriented Programming
 
