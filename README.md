@@ -1,7 +1,8 @@
 The Swift Book
 ==============
 
-Learn Apple's Swift easily and share your knowledge by contributing fixes and additions back to The Swift Book.
+The first open-source Swift book, viewable and editable by everyone!
+
 
 Goal & Vision
 -------------
