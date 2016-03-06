@@ -5,4 +5,5 @@
 * [Structures](chapters/structures.md)
 * [Classes](chapters/classes.md)
 * [Enumerations](chapters/enumerations.md)
+* Protocols
 
