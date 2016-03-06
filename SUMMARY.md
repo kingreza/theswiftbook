@@ -7,5 +7,5 @@
 * [Enumerations](chapters/enumerations.md)
 * [Protocols](chapters/protocols.md)
 * [Generics](chapters/generics.md)
-* Operators
+* [Operators](chapters/operators.md)
 
