@@ -18,6 +18,7 @@ GitHub already gives us many of the tools that we need:
 -   Releases, which will allow us to release official updates of this book, every now and then
 -   The distributed nature of Git, that allows contributors to write and update content, wherever they are and whenever they wish
 
+
 Writing New Content
 -------------------
 
