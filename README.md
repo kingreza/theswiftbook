@@ -1,8 +1,3 @@
----
-csl: ""
-bibliography: ""
----
-
 The Swift Book
 ==============
 
