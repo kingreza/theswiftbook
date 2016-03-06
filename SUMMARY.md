@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](chapters/introduction.md)
-* The Basics
+* [The Basics](chapters/basics.md)
 
