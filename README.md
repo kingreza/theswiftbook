@@ -3,7 +3,6 @@ The Swift Book
 
 The first open-source Swift book, viewable and editable by everyone!
 
-
 Goal & Vision
 -------------
 
