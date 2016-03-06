@@ -6,4 +6,5 @@
 * [Classes](chapters/classes.md)
 * [Enumerations](chapters/enumerations.md)
 * [Protocols](chapters/protocols.md)
+* Generics
 
