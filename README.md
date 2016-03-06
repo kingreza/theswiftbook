@@ -4,13 +4,30 @@ The Swift Book
 Learn Apple's Swift easily and share your knowledge by contributing fixes and
 additions back to The Swift Book.
 
-The Goal
---------
+Goal & Vision
+-------------
 
-To create an open-source book about Swift! I hope that by making an open-source
-book together, we can create a book that covers a much broader domain than that
-which Apple publishes for Swift. And besides, it will, without a doubt, be a fun
-project to be a part of.
+To create an open-source book, about Swift!
+
+Swift is an ever-changing language and to be able to stay on top of these
+changes, we need a new way of writing content. I don’t think any one author can
+keep a whole book always up to date with new Swift content, so why not leverage
+the power of GitHub?
+
+GitHub already gives us many of the tools that we need:
+
+-   Ability to write rich text, in MarkDown
+
+-   The ability for readers to raise issues through the built-in issue tracking
+    system
+
+-   Pull requests, allowing contributors provide new/updated content
+
+-   Releases, which will allow us to release official updates of this book,
+    every now and then
+
+-   The distributed nature of Git, allowing contributors to write/update content
+    wherever they are, whenever they want!
 
 Table of Contents
 -----------------
@@ -46,6 +63,3 @@ Writing New Content
 
 Fixing Mistakes
 ---------------
-
-Vision and Goals
-----------------
