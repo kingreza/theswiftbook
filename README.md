@@ -22,9 +22,7 @@ Table of Contents
 -----------------
 
 1.  [Introduction](<chapters/introduction.md>)
-
 2.  [The Basics](<chapters/basics.md>)
-
 3.  [Structures](<chapters/structures.md>)
 
 4.  [Classes](<chapters/classes.md>)
