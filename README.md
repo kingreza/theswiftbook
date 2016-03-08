@@ -29,31 +29,3 @@ Follow these steps in order to send your content to The Swift Book:
 * Fork this repository
 * Work on your fork, and add your new content/changes
 * Send a pull request for review
-
-```import UIKit
-
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-  var window: UIWindow?
-  
-  func detectAge(age: UInt){
-    if case 18...24 = age{
-      print("You are between 18 and 24")
-    } else {
-      print("I have nothing to say!")
-    }
-  }
-  
-  func example1(){
-    detectAge(22)
-  }
-
-  func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-
-    example1()
-    
-    return true
-  }
-  
-}```
