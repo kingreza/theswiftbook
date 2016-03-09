@@ -20,9 +20,9 @@
 * [Protocols](chapters/protocols.md)
 * [Generics](chapters/generics.md)
 * [Operators](chapters/operators.md)
-* [Access Control](access-control.md)
-   * [Public](public.md)
-   * [Private](private.md)
-   * [Internal](internal.md)
+* [Access Control](chapters/access-control.md)
+   * [Public](chapters/public.md)
+   * [Private](chapters/private.md)
+   * [Internal](chapters/internal.md)
 * [Concepts](chapters/concepts.md)
 
