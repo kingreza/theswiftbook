@@ -26,6 +26,7 @@
    * [Variable and Constant Expectations](chapters/variable_and_constant_expectations.md)
    * [Function Expectations](chapters/function_expectations.md)
    * [Implementing Protocols](chapters/implementing_protocols.md)
+   * [Useful Swift Protocols](chapters/useful_swift_protocols.md)
 * [Generics](chapters/generics.md)
 * [Operators](chapters/operators.md)
    * [System](chapters/system_operators.md)
@@ -38,4 +39,7 @@
    * [Internal](chapters/internal.md)
    * [Static](chapters/static.md)
 * [Concepts](chapters/concepts.md)
+   * [Object Oriented Programming](chapters/object_oriented_programming.md)
+   * [Protocol Oriented Programming](chapters/protocol_oriented_programming.md)
+   * [Functional Reactive Programming](chapters/functional_reactive_programming.md)
 
