@@ -25,6 +25,12 @@ GitHub already gives us many of the tools that we need:
 This book is entirely made out of Markdown files (MD) and PNG images for figures. There are code snippets as well which will be inside the text itself.
 
 Follow these steps in order to send your content to The Swift Book:
-* Fork this repository
-* Work on your fork, and add your new content/changes
-* Send a pull request for review
+* You need to do this once:
+  * Fork this repository
+  * Go to [GitBooks.io](https://www.gitbook.com) and log in with your GitHub account
+  * Add your forked repo to your GitBooks account
+  * Download the GitBooks editor on your Mac
+* Work on your changes with GitBooks editor, and commit them to your fork
+* Send a pull request for review to the master repo
+
+Note: This book will be published through GitBooks.io, so to write content and contribute to this repo, it's best that you use GitBooks.io's native editor app on your Mac.
