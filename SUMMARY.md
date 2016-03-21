@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * [The Basics](chapters/basics.md)
-   * [Variables](chapters/variables.md)
    * [Constants](chapters/constants.md)
+   * [Variables](chapters/variables.md)
    * [Data Types](chapters/data_types.md)
    * [Optionals](chapters/optionals.md)
    * [Functions](chapters/functions.md)
