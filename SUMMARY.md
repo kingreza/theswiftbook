@@ -19,7 +19,6 @@
        * [Default](chapters/default_initializers.md)
        * [Custom](chapters/custom_initializers.md)
 * [Classes](chapters/classes.md)
-   * [Properties](chapters/class_properties.md)
    * [Inheritance](chapters/inheritance.md)
    * [Overriding](chapters/overriding.md)
 * [Enumerations](chapters/enumerations.md)
