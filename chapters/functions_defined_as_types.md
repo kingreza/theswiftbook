@@ -1,2 +1,0 @@
-# Defined as Types
-
