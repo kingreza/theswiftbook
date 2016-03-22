@@ -9,7 +9,7 @@
    * [Functions](chapters/functions.md)
        * [Stored in Variables](chapters/functions_stored_in_variables.md)
        * [Passed to Other Functions](chapters/functions_passed_to_other_functions.md)
-       * [Defined as Types](chapters/functions-defined-as-types.md)
+       * [Defined as Types](chapters/functions_defined_as_types.md)
 * [Structures](chapters/structures.md)
    * [Properties](chapters/properties.md)
        * [Computed](chapters/computed_properties.md)
