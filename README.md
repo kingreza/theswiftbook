@@ -1,6 +1,6 @@
 # The Swift Book
 The first open-source Swift book, viewed and editable by everyone!
-## [Start Reading](https://vandadnp.gitbooks.io/theswiftbook/)
+## [Start Reading](https://www.gitbook.com/book/crowdsourcebooks/theswiftbook/details)
 Head over to [this link](https://vandadnp.gitbooks.io/theswiftbook/) to read the book in a format that best fits your device.
 
 ## [Table of Contents](SUMMARY.md)
