@@ -1,5 +1,5 @@
 
 # Read me to the book
-To be written
+Welcome to The Swift Book, the open source Swift book
 
 
