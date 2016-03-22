@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](chapters/README.md)
 * [The Basics](chapters/basics.md)
    * [Constants](chapters/constants.md)
    * [Variables](chapters/variables.md)
