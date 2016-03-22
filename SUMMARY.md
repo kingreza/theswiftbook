@@ -24,7 +24,7 @@
 * [Enumerations](chapters/enumerations.md)
    * [Error Types](chapters/error_types.md)
 * [Protocols](chapters/protocols.md)
-   * [Variable and Constant Expectations](chapters/protocol-variable-and-constant-expectations.md)
+   * [Variable and Constant Expectations](chapters/protocol_variable_and_constant_expectations.md)
    * [Function Expectations](chapters/protocol_function_expectations.md)
    * [Implementing Protocols](chapters/implementing_protocols.md)
    * [Useful Swift Protocols](chapters/useful_swift_protocols.md)
