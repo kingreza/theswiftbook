@@ -29,6 +29,7 @@
    * [Function Expectations](chapters/protocol_function_expectations.md)
    * [Implementing Protocols](chapters/implementing_protocols.md)
    * [Useful Swift Protocols](chapters/useful_swift_protocols.md)
+   * Associated Types
 * [Generics](chapters/generics.md)
    * [Functions](chapters/generic_functions.md)
    * [Types](chapters/generic_types.md)
