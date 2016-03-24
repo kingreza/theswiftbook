@@ -11,7 +11,7 @@
    * [Constants](chapters/constants.md)
    * [Variables](chapters/variables.md)
    * [Optionals](chapters/optionals.md)
-       * Chaining
+       * [Chaining](chapters/optional_chaining.md)
    * [Functions](chapters/functions.md)
        * [Stored in Variables](chapters/functions_stored_in_variables.md)
        * [Passed to Other Functions](chapters/functions_passed_to_other_functions.md)
