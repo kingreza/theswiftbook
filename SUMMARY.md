@@ -28,7 +28,7 @@
    * [Variable and Constant Expectations](chapters/protocol_variable_and_constant_expectations.md)
    * [Function Expectations](chapters/protocol_function_expectations.md)
    * [Implementing Protocols](chapters/implementing_protocols.md)
-   * Associated Types
+   * [Associated Types](chapters/protocol_associated_types.md)
    * [Useful Swift Protocols](chapters/useful_swift_protocols.md)
 * [Generics](chapters/generics.md)
    * [Functions](chapters/generic_functions.md)
