@@ -13,7 +13,7 @@
    * [Optionals](chapters/optionals.md)
        * [Chaining](chapters/optional_chaining.md)
        * [Explicitly Unwrapped](chapters/explicitly_unwrapped_optionals.md)
-       * Implicitly Unwrapped
+       * [Implicitly Unwrapped](chapters/implicitly_unwrapped_optionals.md)
    * [Functions](chapters/functions.md)
        * [Stored in Variables](chapters/functions_stored_in_variables.md)
        * [Passed to Other Functions](chapters/functions_passed_to_other_functions.md)
