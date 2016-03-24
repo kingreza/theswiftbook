@@ -31,7 +31,7 @@
    * [Error Types](chapters/error_types.md)
    * [With Raw Values](chapters/enum_with_raw_value.md)
    * [With Functions](chapters/enum_with_functions.md)
-   * Matching Values
+   * [Matching Values](chapters/enum_matching_values.md)
 * [Protocols](chapters/protocols.md)
    * [Variable and Constant Expectations](chapters/protocol_variable_and_constant_expectations.md)
    * [Function Expectations](chapters/protocol_function_expectations.md)
