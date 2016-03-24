@@ -7,6 +7,7 @@
        * [Integers](chapters/integer.md)
        * [Collections](chapters/collection.md)
            * [Arrays](chapters/array.md)
+           * Dictionaries
    * [Constants](chapters/constants.md)
    * [Variables](chapters/variables.md)
    * [Optionals](chapters/optionals.md)
