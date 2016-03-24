@@ -50,5 +50,5 @@
    * [Protocol Oriented Programming](chapters/protocol_oriented_programming.md)
    * [Functional Reactive Programming](chapters/functional_reactive_programming.md)
 * [Extensions](chapters/extensions.md)
-   * Properties
+   * [Properties](chapters/extension_properties.md)
 
