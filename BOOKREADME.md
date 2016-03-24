@@ -14,3 +14,8 @@ The goal of this book is to write the most up to date content for Swift, with pe
 
 We will be referring to terms such as RAM, or memory. Should a term be vague, we will provide a definition of it. We will provide a link where you can read more about that term if the definition is not provided in the book itself.
 
+## Which operating system must I have?
+
+Swift is available for both Mac OS X and Linux. The majority of this book's content will focus on Swift as a pure programming language, with no links to any Mac OS X specific packages or software. You should therefore be confident that what you learn in The Swift Book will be applicable in all platforms on which Swift is supported.
+
+For a list of available Swift releases, [visit this page](https://swift.org/download/#releases).
