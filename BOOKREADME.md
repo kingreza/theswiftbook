@@ -8,4 +8,4 @@ The goal of this book is to write the most up to date content for Swift, with pe
 * What computer-memory is and how it works.
 * What the names of different parts of your computer are, such as the monitor!
 
-We will be referring to terms such as RAM, or memory. Should a term be vague, you will be given a definition of it, or alternatively, we will provide a link where you can read more about that temr.
+We will be referring to terms such as RAM, or memory. Should a term be vague, you will be given a definition of it, or alternatively, we will provide a link where you can read more about that term.
