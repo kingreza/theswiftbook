@@ -25,7 +25,7 @@
    * [Initializers](chapters/struct_initializers.md)
        * [Default](chapters/default_initializers.md)
        * [Custom](chapters/custom_initializers.md)
-   * Nested Structures
+   * [Nested Structures](chapters/nested_structures.md)
 * [Classes](chapters/classes.md)
    * [Inheritance](chapters/inheritance.md)
    * [Overriding](chapters/overriding.md)
