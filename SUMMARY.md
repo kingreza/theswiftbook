@@ -5,6 +5,7 @@
    * [Data Types](chapters/data_types.md)
        * [String](chapters/string.md)
        * [Integers](chapters/integer.md)
+       * Collections
    * [Constants](chapters/constants.md)
    * [Variables](chapters/variables.md)
    * [Optionals](chapters/optionals.md)
