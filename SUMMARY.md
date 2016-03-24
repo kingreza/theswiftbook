@@ -29,7 +29,7 @@
 * [Classes](chapters/classes.md)
    * [Inheritance](chapters/inheritance.md)
    * [Overriding](chapters/overriding.md)
-   * Nested
+   * [Nested](chapters/nested.md)
 * [Enumerations](chapters/enumerations.md)
    * [Error Types](chapters/error_types.md)
    * [With Raw Values](chapters/enum_with_raw_value.md)
