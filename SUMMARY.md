@@ -2,9 +2,9 @@
 
 * [Introduction](BOOKREADME.md)
 * [The Basics](chapters/basics.md)
+   * [Data Types](chapters/data_types.md)
    * [Constants](chapters/constants.md)
    * [Variables](chapters/variables.md)
-   * [Data Types](chapters/data_types.md)
    * [Optionals](chapters/optionals.md)
    * [Functions](chapters/functions.md)
        * [Stored in Variables](chapters/functions_stored_in_variables.md)
