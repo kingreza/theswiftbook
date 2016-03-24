@@ -30,7 +30,7 @@
    * [Implementing Protocols](chapters/implementing_protocols.md)
    * [Useful Swift Protocols](chapters/useful_swift_protocols.md)
 * [Generics](chapters/generics.md)
-   * Functions
+   * [Functions](chapters/generic_functions.md)
 * [Operators](chapters/operators.md)
    * [System](chapters/system_operators.md)
    * [Infix](chapters/infix_operators.md)
