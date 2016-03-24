@@ -33,6 +33,7 @@
    * [Functions](chapters/generic_functions.md)
    * [Types](chapters/generic_types.md)
    * [Operators](chapters/generic_operators.md)
+   * Constraints
 * [Operators](chapters/operators.md)
    * [System](chapters/system_operators.md)
    * [Infix](chapters/infix_operators.md)
