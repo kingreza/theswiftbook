@@ -32,7 +32,7 @@
 * [Generics](chapters/generics.md)
    * [Functions](chapters/generic_functions.md)
    * [Types](chapters/generic_types.md)
-   * Operators
+   * [Operators](chapters/generic_operators.md)
 * [Operators](chapters/operators.md)
    * [System](chapters/system_operators.md)
    * [Infix](chapters/infix_operators.md)
