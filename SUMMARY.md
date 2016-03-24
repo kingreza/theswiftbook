@@ -16,10 +16,10 @@
        * [Implicitly Unwrapped](chapters/implicitly_unwrapped_optionals.md)
    * [Functions](chapters/functions.md)
        * [Arguments](chapters/function_arguments.md)
+       * Return Type
        * [Stored in Variables](chapters/functions_stored_in_variables.md)
        * [Passed to Other Functions](chapters/functions_passed_to_other_functions.md)
        * [Defined as Types](chapters/functions_defined_as_types.md)
-       * Return Type
    * [Conditionals](chapters/conditionals.md)
    * [Type Casting](chapters/type_casting.md)
 * [Structures](chapters/structures.md)
