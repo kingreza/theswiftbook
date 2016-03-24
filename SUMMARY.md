@@ -51,5 +51,5 @@
    * [Functional Reactive Programming](chapters/functional_reactive_programming.md)
 * [Extensions](chapters/extensions.md)
    * [Properties](chapters/extension_properties.md)
-   * Functions
+   * [Functions](chapters/extension_functions.md)
 
