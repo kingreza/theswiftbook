@@ -6,6 +6,7 @@
        * [String](chapters/string.md)
        * [Integers](chapters/integer.md)
        * [Collections](chapters/collection.md)
+           * Arrays
    * [Constants](chapters/constants.md)
    * [Variables](chapters/variables.md)
    * [Optionals](chapters/optionals.md)
