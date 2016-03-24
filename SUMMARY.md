@@ -52,4 +52,5 @@
 * [Extensions](chapters/extensions.md)
    * [Properties](chapters/extension_properties.md)
    * [Functions](chapters/extension_functions.md)
+   * Initializers
 
