@@ -8,7 +8,7 @@ The goal of this book is to write the most up to date content for Swift, with pe
 
 * How different parts of a computer work together.
 * What computer-memory is and how it works.
-* What the names of different parts of your computer are, such as the "monitor"!
+* What the names of different parts of your computer are, such as the "Monitor"!
 
 We will be referring to terms such as RAM, or memory. Should a term be vague, we will provide a definition of it. We will provide a link where you can read more about that term if the definition is not provided in the book itself.
 
