@@ -4,6 +4,7 @@
 * [The Basics](chapters/basics.md)
    * [Data Types](chapters/data_types.md)
        * [String](chapters/string.md)
+       * Integers
    * [Constants](chapters/constants.md)
    * [Variables](chapters/variables.md)
    * [Optionals](chapters/optionals.md)
