@@ -19,3 +19,6 @@ We will be referring to terms such as RAM, or memory. Should a term be vague, we
 Swift is available for both Mac OS X and Linux. The majority of this book's content will focus on Swift as a pure programming language, with no links to any Mac OS X specific packages or software. You should therefore be confident that what you learn in The Swift Book will be applicable in all platforms on which Swift is supported.
 
 For a list of available Swift releases, [visit this page](https://swift.org/download/#releases).
+
+## How can I install Swift?
+

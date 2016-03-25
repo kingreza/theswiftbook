@@ -1,0 +1,1 @@
+This file should describe the format of images, the sizes, how we use them, names, etc.
