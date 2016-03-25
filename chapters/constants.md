@@ -11,6 +11,13 @@ The `let` statement allows you to create a constant. What follows after `let` is
 Here is an example of a constant called *nameOfYourConstant* whose value is *xyz*. This constant has no explicit data type. Once you assign a value to a constant, Swift will figure out the data type automatically.
 
 ```swift
-let nameOfYourConstant = xyz```
+let nameOfYourConstant = xyz
+```
 
-If you want to 
+If you want to explicitly assign a data type to a constant, use the following syntax:
+
+```swift
+let nameOfYourConstant: DataTypeOfYourConstant = xyz
+```
+
+Where `DataTypeOfYourConstant` is the data type.
