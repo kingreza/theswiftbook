@@ -27,4 +27,14 @@ For a list of available Swift releases, [visit this page](https://swift.org/down
 
 Swift is currently not supported on Windows.[^1]
 
+
+## Legal
+
+Swift™ is an Apple trademark[^2]. The Swift Book is in no way associated with Apple nor any of its products. This book is a crowd sourced, community driven effort with the sole purpose of writing up to date material on programming with Swift. Use all example codes and advice at your own responsibility. The owners of this, who include the content writers, moderators, editors, graphic designers, and any other person who is direclty or indirectly involved in the creation of this book shall not in any way be responsible for, however remote, but possible issues that might be caused as the result of using content from this book.
+
+## License
+
+
 [^1]: If you believe this is not the case, [file an issue here](https://github.com/crowdsourcebooks/theswiftbook/issues).
+[^2]: [Apple Trademarks](http://www.apple.com/legal/intellectual-property/trademark/appletmlist.html)
+
