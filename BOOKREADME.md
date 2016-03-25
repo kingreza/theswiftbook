@@ -22,3 +22,9 @@ For a list of available Swift releases, [visit this page](https://swift.org/down
 
 ## How can I install Swift?
 
+* On OS X, simply download Xcode (free) from the App Store. Xcode comes with Swift already built-in.
+* On Linux, simply navigate to [this page](https://swift.org/download/#releases) to download and install Swift.
+
+Swift is currently not supported on Windows.[^1]
+
+[^1]: If you believe this is not the case, [file an issue here](https://github.com/crowdsourcebooks/theswiftbook/issues).
