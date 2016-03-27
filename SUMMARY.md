@@ -30,6 +30,7 @@
    * [Initializers](chapters/struct_initializers.md)
        * [Default](chapters/default_initializers.md)
        * [Custom](chapters/custom_initializers.md)
+       * [Optional](chapters/optional_initializer.md)
    * [Nested](chapters/nested_structures.md)
 * [Classes](chapters/classes.md)
    * [Inheritance](chapters/inheritance.md)

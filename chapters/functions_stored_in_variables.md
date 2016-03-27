@@ -1,2 +1,2 @@
-# Stored in Variables
+# Storing Functions in Variables
 

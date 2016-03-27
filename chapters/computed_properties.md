@@ -1,2 +1,2 @@
-# Computed
+# Computed Properties
 

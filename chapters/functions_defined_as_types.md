@@ -1,2 +1,6 @@
-# Defined as Types
+# Defining Functions as Types
+
+To be written
+
+
 
