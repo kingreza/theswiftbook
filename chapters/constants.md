@@ -30,7 +30,7 @@ The biggest advantage of using a constant over a variable is that a constant's v
 Constants and structures work hand in hand in creating highly parallelizable and thread-safe code where the objects are not mutated and are passed by value instead of reference.
 
 
-## Constant Examples
+## Implicitly Typed Constant
 
 Let's have a look at a few examples of creating constants.
 
@@ -40,11 +40,11 @@ Let's have a look at a few examples of creating constants.
 let value = 123
 ```
 
-* A 
-
+## Explicitly Typed Constants
 
 ## Conditional Constant Initialization
 
+## Constant Function Argument
 
 
 
