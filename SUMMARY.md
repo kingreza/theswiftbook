@@ -6,6 +6,7 @@
        * [String](chapters/string.md)
        * [Integers](chapters/integer.md)
        * [Double](chapters/double.md)
+       * [Tuples](chapters/tuples.md)
        * [Collections](chapters/collection.md)
            * [Arrays](chapters/array.md)
            * [Dictionaries](chapters/dictionary.md)

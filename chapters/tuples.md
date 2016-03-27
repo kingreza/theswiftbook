@@ -1,15 +1,12 @@
-# Functions
+# Tuples
 
 To be written
 
-## Usage
+## Syntax
 
 To be written
 
-## Versus Properties
+## Argument Names
 
 To be written
-
-
-
 
