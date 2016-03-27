@@ -13,7 +13,6 @@
    * [Optionals](chapters/optionals.md)
        * [Chaining](chapters/optional_chaining.md)
        * [Explicitly Unwrapped](chapters/explicitly_unwrapped_optionals.md)
-       * [Implicitly Unwrapped](chapters/implicitly_unwrapped_optionals.md)
    * [Functions](chapters/functions.md)
        * [Arguments](chapters/function_arguments.md)
        * [Return Type](chapters/function_return_type.md)
