@@ -23,14 +23,14 @@ let nameOfYourConstant: DataTypeOfYourConstant = xyz
 Where `DataTypeOfYourConstant` is the data type.
 
 
-## Why use Constants?
+## Why?
 
 The biggest advantage of using a constant over a variable is that a constant's value cannot be changed after it is assigned. This creates the ease-of-mind feeling when writing code, that you know a constant's value will not be changed while you are working with it.
 
 Constants and structures work hand in hand in creating highly parallelizable and thread-safe code where the objects are not mutated and are passed by value instead of reference.
 
 
-## Implicitly Typed Constant
+## Implicitly Typed
 
 Let's have a look at a few examples of creating constants.
 
@@ -40,11 +40,17 @@ Let's have a look at a few examples of creating constants.
 let value = 123
 ```
 
-## Explicitly Typed Constants
+## Explicitly Typed
 
-## Conditional Constant Initialization
+To be written
 
-## Constant Function Argument
+## Conditional Initialization
+
+To be written
+
+## As Function Arguments
+
+To be written
 
 
 
