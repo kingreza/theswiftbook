@@ -47,6 +47,7 @@
    * [Implementing Protocols](chapters/implementing_protocols.md)
    * [Associated Types](chapters/protocol_associated_types.md)
    * [Useful Swift Protocols](chapters/useful_swift_protocols.md)
+   * [Checking Conformance](chapters/checking_protocol_conformance.md)
 * [Generics](chapters/generics.md)
    * [Functions](chapters/generic_functions.md)
    * [Types](chapters/generic_types.md)
