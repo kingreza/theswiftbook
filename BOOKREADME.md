@@ -27,10 +27,9 @@ For a list of available Swift releases, [visit this page](https://swift.org/down
 
 Swift is currently not supported on Windows.[^1]
 
-## Can I learn Cocoa or Cocoa Touch with The Swift Book?
+## Frequently Asked Questions
 
-To be written
-
+For the list of frequently asked questions, [refer to this page](BOOKREADME.md).
 
 ## Legal
 
