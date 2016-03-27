@@ -32,7 +32,16 @@ Constants and structures work hand in hand in creating highly parallelizable and
 
 ## Constant Examples
 
-Let's have a look at a few examples 
+Let's have a look at a few examples of creating constants.
+
+* A constant named `value` with an implicit data type of `Int` with the value of `123`
+
+```swift
+let value = 123
+```
+
+* A 
+
 
 ## Conditional Constant Initialization
 
