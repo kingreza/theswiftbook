@@ -6,10 +6,6 @@ To be written
 
 To be written
 
-## Extending Optionals
-
-To be written
-
-## Switching Optionals
+## Switching
 
 To be written

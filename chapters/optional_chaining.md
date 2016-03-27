@@ -1,6 +1,6 @@
 # Optional Chaining
 
-## Syntax
+## Usage
 
-## Optinal Chaining Examples
+
 

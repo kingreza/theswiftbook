@@ -4,11 +4,11 @@ Intro
 
 ## Syntax
 
-## Why use Variables?
+## Why?
 
-## Implicitly Typed Variables
+## Implicitly Typed
 
-## Explicitly Typed Variables
+## Explicitly Typed
 
-## Variable Function Arguments
+## As Function Arguments
 
