@@ -28,8 +28,7 @@ Follow these steps in order to send your content to The Swift Book:
     * Log in to your account
     <img src="/images/gitbook_log_in.png" alt="gitbook_log_in" style="width: 500px;">
     * Choose `Create or Import your first book` button
-    <img src="/images/gitbook_create_new_book_annotated.png" alt="gitbook_create_new_book_annotated" style="width: 500px;">
-    * Link to your GitHub
+    <img src="/images/gitbook_create_new_book_annotated.png" alt="gitbook_create_new_book_annotated" style="width: 500px;">     * Link to your GitHub  
     <img src="/images/gitbook_link_to_github_annotated.png" alt="gitbook_link_to_github_annotated" style="width: 500px;">
     * Select `theswiftbook` repository
     <img src="/images/gitbook_select_repository_annotated.png" alt="gitbook_select_repository_annotated" style="width: 500px;">
