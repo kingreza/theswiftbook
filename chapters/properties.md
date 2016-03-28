@@ -1,2 +1,2 @@
-# Properties
+# Defining Properties for Structures
 

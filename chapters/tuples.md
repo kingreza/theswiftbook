@@ -1,4 +1,4 @@
-# Error Type Enumerations
+# Tuples
 
 To be written
 
@@ -6,7 +6,7 @@ To be written
 
 To be written
 
-## Usage
+## Argument Names
 
 To be written
 
