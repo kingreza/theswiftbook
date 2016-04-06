@@ -29,3 +29,7 @@ to be written
 ## Length
 
 to be written
+
+## Operators
+
+to be written

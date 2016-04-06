@@ -2,14 +2,19 @@
 
 To be written
 
-## Ceiling and Floor
+## Syntax
+
+to be written
+
+## Rounding
 
 To be written
 
-## As String
+## Converting
 
 To be written
 
-## As Integer
+## Operators
 
-To be written
+to be written
+
