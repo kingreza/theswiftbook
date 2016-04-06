@@ -1,14 +1,15 @@
 # Variables
 
-Intro
+to be written
 
 ## Syntax
 
+to be written
+
 ## Why?
 
-## Implicitly Typed
-
-## Explicitly Typed
+to be written
 
 ## As Function Arguments
 
+to be written
