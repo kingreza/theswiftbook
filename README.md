@@ -22,20 +22,19 @@ This book is entirely made out of Markdown files (MD) and PNG images for figures
 Follow these steps in order to send your content to The Swift Book:
 * You need to do this once:
   * Fork this repository
-  * Go to [GitBooks.io](https://www.gitbook.com) and log in with your GitHub account
+  * Go to [GitBook](https://www.gitbook.com) and log in with your GitHub account
     * Select `SIGN IN` button
-    <img src="https://cloud.githubusercontent.com/assets/8563047/14035581/7071292a-f273-11e5-95e4-6f0ba3fdc7c5.png" alt="readme_sign_in_gitbook" style="width: 500px;"/>
+    <img src="/images/gitbook_sign_in_annotated.png" alt="gitbook_sign_in_annotated" style="width: 500px;">
     * Log in to your account
-    <img src="https://cloud.githubusercontent.com/assets/8563047/14035583/763195ca-f273-11e5-8877-b48ecc0fdcc1.png" alt="readme_log_in_gitbook" style="width: 500px;"/>
+    <img src="/images/gitbook_log_in.png" alt="gitbook_log_in" style="width: 500px;">
     * Choose `Create or Import your first book` button
-    <img src="https://cloud.githubusercontent.com/assets/8563047/14035585/7d83f9bc-f273-11e5-831e-6bbc8a5e8297.png" alt="readme_create_new_book" style="width: 500px;"/>
-    * Link to your GitHub
-    <img src="https://cloud.githubusercontent.com/assets/8563047/14035578/6adbd5b4-f273-11e5-90e0-20f9364dea16.png" alt="readme_link_to_github" style="width: 500px;"/>
-    * Select `theswiftbook` repository
-    <img src="https://cloud.githubusercontent.com/assets/8563047/14035576/641a6c04-f273-11e5-93a3-346502e67460.png" alt="readme_connect_repo" style="width: 500px;"/>
-  * Add your forked repo to your GitBooks account
-  * [Download the GitBooks editor on your Mac](https://www.gitbook.com/editor)
-* Work on your changes with GitBooks editor, and commit them to your fork
+    <img src="/images/gitbook_create_new_book_annotated.png" alt="gitbook_create_new_book_annotated" style="width: 500px;">     
+    * Link to your GitHub  
+    <img src="/images/gitbook_link_to_github_annotated.png" alt="gitbook_link_to_github_annotated" style="width: 500px;">
+    * Add your forked repo to your GitBook account
+    <img src="/images/gitbook_select_repository_annotated.png" alt="gitbook_select_repository_annotated" style="width: 500px;">
+  * [Download the GitBook editor on your Mac](https://www.gitbook.com/editor)
+* Work on your changes with GitBook editor, and commit them to your fork
 * Send a pull request for review to the master repo
 
-Note: This book will be published through GitBooks.io, so to write content and contribute to this repo, it's best that you use GitBooks.io's native editor app on your Mac.
+Note: This book will be published through GitBook, so to write content and contribute to this repo, it's best that you use GitBook's native editor app on your Mac.

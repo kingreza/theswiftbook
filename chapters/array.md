@@ -1,8 +1,28 @@
 # Arrays
 
-## Filtering an Array
+to be written
 
-## Convering Array Items to Another Type
+## Syntax
 
+to be written
 
+## Enumerating
+
+to be written
+
+## Counting
+
+to be written
+
+## Filtering
+
+to be written
+
+## Mapping
+
+to be written
+
+## Zipping
+
+to be written
 
