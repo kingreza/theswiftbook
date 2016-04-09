@@ -42,11 +42,29 @@ let nameWithQux = nameWithBaz + " Qux"
 
 ## Saving to and Loading From File
 
-to be written
+Swift's strings are bridgable to Foundation framework's `NSString` class indirectly. To load an instance of `String` from a file path URL, simply use the `String(contentsOfURL:)` initializer:
+
+```swift
+func readFromFile(url: NSURL){
+  
+  if let str = try? String(contentsOfURL: url){
+    print(str)
+  }
+  
+}
+```
 
 ## Formatting
 
-to be written
+String formatting can easily be done inside the string object itself. Imagine that you have a constant called `age` of type `Int` and another constant called `name` of type `String`. You simply want to construct a string that says *"X is Y years old"* where X is the name and Y is the age. In this case you can use the `\()` formatting inside the string as shown here:
+
+```swift
+let age = 31
+let name = "Foo"
+let msg = "\(name) is \(age) years old"
+//msg = "Foo is 31 years old"
+```
+
 
 ## Converting
 
