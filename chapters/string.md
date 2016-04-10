@@ -77,7 +77,19 @@ let uint = UInt(str)
 
 ## Length
 
-to be written
+Get the length of a string using the `count` property of the `characters` property of the string:
+
+```swift
+let length = "Hello".characters.count
+```
+
+You can also get the UTF-8 length of a string using the `utf8.count` property of the string:
+
+```swift
+let length = "Hello".utf8.count
+```
+
+Strings have different representations that you can access with various properties, namely `utf8` and `utf16`.
 
 ## Operators
 
