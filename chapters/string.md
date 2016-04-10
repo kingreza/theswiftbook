@@ -65,10 +65,15 @@ let msg = "\(name) is \(age) years old"
 //msg = "Foo is 31 years old"
 ```
 
-
 ## Converting
 
-to be written
+You can convert a String to different data types, such as `Int` or `UInt` using the destination data type's initializer:
+
+```swift
+let str = "123"
+let int = Int(str)
+let uint = UInt(str)
+```
 
 ## Length
 
