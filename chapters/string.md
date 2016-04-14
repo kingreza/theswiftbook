@@ -46,11 +46,11 @@ Swift's strings are bridgable to Foundation framework's `NSString` class indirec
 
 ```swift
 func readFromFile(url: NSURL){
-  
+
   if let str = try? String(contentsOfURL: url){
     print(str)
   }
-  
+
 }
 ```
 
