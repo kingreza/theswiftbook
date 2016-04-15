@@ -27,9 +27,13 @@ For a list of available Swift releases, [visit this page](https://swift.org/down
 
 Swift is currently not supported on Windows.[^1]
 
+## How can I contribute to The Swift Book?
+
+to be written
+
 ## Frequently Asked Questions
 
-For the list of frequently asked questions, [refer to this page](BOOKREADME.md).
+For the list of frequently asked questions, [refer to this page](BOOKFAQ.md).
 
 ## Legal
 
