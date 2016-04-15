@@ -2,7 +2,11 @@
 
 To be written
 
-## Where to Use Nested Structures
+## Why?
 
-## Where not to Use Nested Structures
+to be written
+
+## Syntax
+
+to be written
 
