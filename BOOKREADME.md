@@ -29,7 +29,13 @@ Swift is currently not supported on Windows.[^1]
 
 ## How can I contribute to The Swift Book?
 
-to be written
+The idea behind The Swift Book is to create a community driven project where everyone is welcome to write content and help others learn about Swift.
+
+Swift is an ever evolving language so that content written *and maintained* by one person cannot stay up to date, even during a short period of time. Therefore, it is important that we have as many contributors and reviewers as possible for new content.
+
+To start contributing, [visit The Swift Book's GitHub page](https://github.com/crowdsourcebooks/theswiftbook) and read the section titled "*Writing New Content, Fixing Issues*".
+
+If you have any issues with the content, [simply raise them here](https://github.com/crowdsourcebooks/theswiftbook/issues).
 
 ## Frequently Asked Questions
 
