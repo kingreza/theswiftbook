@@ -1,6 +1,6 @@
 # Integers
 
-Integers are whole numbers which don't have a fractional component. For example, `0`, `1`, `2` and `-3` are integers, but `3.14` is not. Swift provides signed and unsigned integers with 8, 16, 32, and 64 bit forms. In addition to a platform specific integers, such as `Int64` or `UInt32`, Swift have `Int`, `UInt` type to match automatically with the native word size of the current platform. In the most cases, it is helpful to use `Int` as the default integer type for consistency and interoperability excepting you specially need to dealt with a specific integer types.
+Integers are whole numbers which don't have a fractional component. For example, `0`, `1`, `2` and `-3` are integers, but `3.14` is not. Swift provides signed and unsigned integers with 8, 16, 32, and 64 bit forms. In addition to platform specific integers, such as `Int64` or `UInt32`, Swift have `Int`, `UInt` type to match automatically with the native word size of the current platform. In the most cases, it is helpful to use `Int` as the default integer type for consistency and interoperability excepting you specially need to dealt with specific integer types.
 
 ## Syntax
 
@@ -17,12 +17,19 @@ var penalty: Int = -200
 let bonus: UInt = 50  
 ```
 
-You can declare variables and constants with an explicit integer types. In the above code, a variable called `penalty` is declared with `Int` type and a constant called `bonus` is declared with `UInt` type.
+You can declare variables and constants with explicit integer types. In the above code, a variable called `penalty` is declared with `Int` type and a constant called `bonus` is declared with `UInt` type.
 
 ## Signed
 
-Signed integer can be a positive, negative integer and zero. As we mentioned in the above Integers section, use `Int` type will be enough unless you have to perform with a specific size of integers such as `Int32`.
+Signed integer can be a positive, negative integer and zero. You can use signed integer, such as `Int`or `Int64`, within their range of value. With min and max property, you can check out it :
 
+```swift
+let maxValue: Int = Int.max // 1)
+let maxValue32: Int32 = Int32.max // 2)
+let maxValue64: Int64 = Int64.max  // 3)
+```
+
+On a 64-bit platform, `maxValue` is `9223372036854775807`, `maxVaue32` is `2147483647` and `maxValue64` is `9223372036854775807`. As mentioned in the beginning of paragragh, `Int` type has the same size as `Int64`.  
 
 ## Unsigned
 
