@@ -23,12 +23,12 @@ To improve code readability, you can use `_` between integers literals. For exam
 ```swift
 let savingAccount = 1_000_000
 print("savingAccount = \(savingAccount)")
-// the result is `1000000`  
+// the result is `savingAccount = 1000000`  
 ```
 
 ## Signed
 
-Signed integer can be a positive, negative integer and zero. You can use signed integer, such as `Int`or `Int64`, within their range of value. With min and max property, you can check out it :
+Signed integer can be a positive, negative integer and zero. You can use signed integer, such as `Int`or `Int64`, within their range of value. With min and max property, you can check it out :
 
 ```swift
 let maxValue: Int = Int.max // 1)
