@@ -10,14 +10,21 @@ Here is a simple way of creating an integer:
 let testScore = 100
 ```
 
-This creates a constant called `testScore` and assign a literal value of `100` to it. With [Swift type inference](constants.md), `testScore` is inferred to be of type `Int`.
+This creates a constant called `testScore` and assign a literal value of `100` to it. With [Swift type inference](constants.md), `testScore` is inferred to be of type `Int`. Also, You can declare variables and constants with explicit integer types.
 
 ```swift
 var penalty: Int = -200
 let bonus: UInt = 50  
 ```
 
-You can declare variables and constants with explicit integer types. In the above code, a variable called `penalty` is declared with `Int` type and a constant called `bonus` is declared with `UInt` type.
+In the above code, a variable called `penalty` is declared with `Int` type and a constant called `bonus` is declared with `UInt` type.
+To improve code readability, you can use `_` between integers literals. For example :
+
+```swift
+let savingAccount = 1_000_000
+print("savingAccount = \(savingAccount)")
+// the result is `1000000`  
+```
 
 ## Signed
 
