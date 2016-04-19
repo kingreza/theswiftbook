@@ -1,6 +1,6 @@
 # Integers
 
-Integers are whole numbers which don't have a fractional component. For example, `0`, `1`, `2` and `-3` are integers, but `3.14` is not. Swift provides signed and unsigned integers with 8, 16, 32, and 64 bit forms. In addition to platform specific integers, such as `Int64` or `UInt32`, Swift have `Int`, `UInt` type to match automatically with the native word size of the current platform. In the most cases, it is helpful to use `Int` as the default integer type for consistency and interoperability excepting you specially need to dealt with specific integer types.
+Integers are whole numbers which don't have a fractional component. For example, `0`, `1`, `2` and `-3` are integers, but `3.14` is not. Swift provides signed and unsigned integers with 8, 16, 32, and 64 bit forms. In addition to platform specific integers, such as `Int64` or `UInt32`, Swift has `Int`, `UInt` type to match automatically with the native word size of the current platform. In the most cases, it is helpful to use `Int` as the default integer type for consistency and interoperability excepting you specially need to dealt with specific integer types.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ print("savingAccount = \(savingAccount)")
 
 ## Signed
 
-Signed integer can be a positive, negative integer and zero. You can use signed integer, such as `Int`or `Int64`, within their range of value. With min and max property, you can check it out :
+Signed integer can be a positive, negative and zero. You can use signed integer, such as `Int`or `Int64`, within their minimum and maximum range of value. You can use the `min` and `max` properties of both `UInt` and `Int` to determine the minimum and maximum values that these data types can hold, as shown here:
 
 ```swift
 let maxValue: Int = Int.max // 1)
@@ -36,11 +36,11 @@ let maxValue32: Int32 = Int32.max // 2)
 let maxValue64: Int64 = Int64.max  // 3)
 ```
 
-On a 64-bit platform, `maxValue` is `9223372036854775807`, `maxVaue32` is `2147483647` and `maxValue64` is `9223372036854775807`. As mentioned in the beginning of paragragh, `Int` type has the same size as `Int64`.  
+On a 64-bit platform, `maxValue` is `9223372036854775807`, `maxVaue32` is `2147483647` and `maxValue64` is `9223372036854775807`. As mentioned in the beginning of this paragraph, the `Int` type has the same size as `Int64` on a 64-bit machine.  
 
 ## Unsigned
 
-Unsigned integer can be a positive integer and zero. To indicate an unsigned integer, you need the `U` character in front of integer types, such as `UInt`, `UInt32`. For example :
+An unsigned integer can contain both a positive and a negative value. To indicate an unsigned integer, you need the `U` character in front of integer types, such as `UInt`, `UInt32`. For example :
 
 ```swift
 let familyMembers : UInt32 = 4
