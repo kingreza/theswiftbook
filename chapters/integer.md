@@ -49,8 +49,8 @@ let clubMembers: UInt = 4
 
 ## Converting
 
-to be written
+TODO: write about converting integers to other types, such as strings, floats, double, etc
 
 ## Operators
 
-to be written
+TODO: write about default operators, such as +, -, +=, etc and talk about their priorities over each other and how we can use parenthesis to avoid confusion between operator priorities
