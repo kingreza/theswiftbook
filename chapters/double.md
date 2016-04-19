@@ -18,3 +18,7 @@ TODO: write about converting double to CGFloat and Int and UInt or even String
 
 TODO: write about the default operators that can be applied to Double such as +, -, etc. And write about their priorities and using parenthesis to avoid confusion
 
+## Useful Properties
+TODO: explain properties like `isInfinite`, `isNaN` and `isFinite`
+
+
