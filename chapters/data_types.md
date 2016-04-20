@@ -14,7 +14,7 @@ In this section of The Swift Book you will learn about some of the most importan
 
 ## Type Inference
 
-Swift doesn't require the programmer to define an explicit data type for values stored in [constants](chapters/constants.md) or [variables](chapters/variables.md). When you specify a value of `"Hello, World"` to a constant, Swift deducts from the value that the type should be `String`. Here are a few examples:
+Swift doesn't require the programmer to define an explicit data type for values stored in [constants](constants.md) or [variables](variables.md). When you specify a value of `"Hello, World"` to a constant, Swift deducts from the value that the type should be `String`. Here are a few examples:
 
 ```swift
 let age = 31 //Int
@@ -35,4 +35,3 @@ You can of course override the detected data type by explicitly specifying your 
 let age: UInt = 31
 let value: CGFloat = 20.1
 ```
-

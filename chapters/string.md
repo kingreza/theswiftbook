@@ -32,7 +32,7 @@ name += " Baz"
 name += " Qux"
 ```
 
-There are mutable functions, as mentioned before, on String. To use those, you need to define your string object as a [variable](chapters/variables.md). Here is an example that allows you to use the `write(_:)` mutating function on `String` to append a string to your current variable:
+There are mutable functions, as mentioned before, on String. To use those, you need to define your string object as a [variable](variables.md). Here is an example that allows you to use the `write(_:)` mutating function on `String` to append a string to your current variable:
 
 ```swift
 var name = "Foo"

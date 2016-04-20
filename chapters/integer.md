@@ -10,7 +10,7 @@ Here is a simple way of creating an integer:
 let testScore = 100
 ```
 
-This creates a constant called `testScore` and assign a literal value of `100` to it. With [Swift type inference](constants.md), `testScore` is inferred to be of type `Int`. Also, You can declare variables and constants with explicit integer types.
+This creates a constant called `testScore` and assign a literal value of `100` to it. With [Swift type inference](data_types.md), `testScore` is inferred to be of type `Int`. Also, You can declare variables and constants with explicit integer types.
 
 ```swift
 var penalty: Int = -200
