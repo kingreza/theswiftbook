@@ -45,7 +45,7 @@ An unsigned integer can contain either the value zero or a positive value. To in
 ```swift
 let familyMembers : UInt32 = 4
 let clubMembers: UInt = 4
-let zero = UInt.min //0
+let zero = UInt.min // = 0
 ```
 
 ## Converting
