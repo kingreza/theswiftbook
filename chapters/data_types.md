@@ -11,3 +11,7 @@ A few main data types that you can use in Swift are:
 | [`Double`](double.md) | A value with fraction, such as *1.22* or *123.98* |
 
 In this section of The Swift Book you will learn about some of the most important and built-in data types that are used in almost every Swift project that you might be able to get your hands on.
+
+## Type Interface
+
+Swift doesn't require the programmer to define an explicit data type for values stored in constants or variables.
