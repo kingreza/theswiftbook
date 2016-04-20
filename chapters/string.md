@@ -1,6 +1,6 @@
 # String
 
-Strings in Swift, of type `String` hold characters. They can be in any language and they can even contain Emojis. `String` data type is a `struct` in Swift, therefore it is immutable. Should you wish to append to a string that you have already created, simply use the `+` operator.
+Strings in Swift, of type `String` hold characters. They can be in any language and they can even contain Emojis. `String` data type is a `struct` in Swift, therefore it is value type, meaning that when it is passed to a function, it will be copied rather than passed as a reference. Should you wish to append to a string that you have already created, simply use the `+` operator.
 
 ## Syntax
 
