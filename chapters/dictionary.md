@@ -1,27 +1,23 @@
 # Dictionaries
 
-To be written
+TODO: tell the reader what dictionaries are useful and what their difference is with arrays
 
 ## Syntax
 
-to be written
+TODO: create some dictionaries of different types for the reader and explain the syntax
 
 ## Enumerating
 
-To be written
+TODO: show the read different ways of going through a dictionary's keys and values or even just going through the keys separately and values separately
 
 ## Filtering
 
-To be written
+TODO: explain the `filter()` function on dictionaries and tell the reader when it is useful to use `filter()`
 
 ## Mapping
 
-to be written
-
-## Keys and Values
-
-To be written
+TODO: explain the `map()` function on dictionaries and tell the reader when it is useful to use `map()`
 
 ## Zipping
 
-to be written
+TODO: explain the `zip()` function on dictionaries and tell the reader when it is useful to use `zip()`

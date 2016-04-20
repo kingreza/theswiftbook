@@ -1,2 +1,2 @@
-# Functional Reactive Programming
+# Functional, Reactive Programming
 

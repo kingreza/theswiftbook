@@ -88,11 +88,8 @@ let up: Direction = .Up
 
 ## Conditional Initialization
 
-To be written
+TODO: write about how we can create a constant that doesn't have an initial value and how we can set this value conditionally with if statements later before use
 
-## As Function Arguments
-
-To be written
 
 
 

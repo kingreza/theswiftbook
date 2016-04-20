@@ -1,6 +1,6 @@
 # String
 
-Strings in Swift, of type `String` hold characters. They can be in any language and they can even contain Emojis. `String` data type is a `struct` in Swift, therefore it is immutable. Should you wish to append to a string that you have already created, simply use the `+` operator.
+Strings in Swift, of type `String` hold characters. They can be in any language and they can even contain Emojis. `String` data type is a `struct` in Swift, therefore it is value type, meaning that when it is passed to a function, it will be copied rather than passed as a reference. Should you wish to append to a string that you have already created, simply use the `+` operator.
 
 ## Syntax
 
@@ -24,12 +24,20 @@ let reverse = String(name.characters.reverse())
 The return value of this function is `ReverseCollection<Self>` so you need to type cast it to `String`.
 ## Mutating
 
-`String` as a data type is defined as a `struct` in Swift, which by default renders it immutable. You can however use the `+` or the `+=` operators to append to an existing string, and create a new one that holds the existing string and the appended value. Here is an example:
+`String` as a data type is defined as a `struct` in Swift, and has mutating functions. You can use the `+` or the `+=` operators to append to an existing string, and create a new one that holds the existing string and the appended value. Here is an example:
 
 ```swift
 var name = "Foo Bar"
 name += " Baz"
 name += " Qux"
+```
+
+There are mutable functions, as mentioned before, on String. To use those, you need to define your string object as a [variable](chapters/variables.md). Here is an example that allows you to use the `write(_:)` mutating function on `String` to append a string to your current variable:
+
+```swift
+var name = "Foo"
+name.write(" Bar")
+//name = "Foo Bar"
 ```
 
 Note how the string is defined as a `var`. You can also continue to use constants. Then for each new string you need a new constant as well:

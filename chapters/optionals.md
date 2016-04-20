@@ -1,19 +1,19 @@
 # Optionals
 
-To be written
+TODO: explain what optionals are and how the reader has to think of an optional value when they see it. Also tell the reader that Optional is an actual data type in Swift and what it looks like and how it works
 
 ## Syntax
 
-To be written
+TODO: give examples of how we can create optional values and even use `Optional.Some()` to create an optional value out of a constant
 
 ## Safely Unwrapping
 
-To be written
+TODO: tell the reader how they can use the `guard` or `if let` to safely unwrap values inside optionals
 
 ## Force Unwrapping
 
-To be written
+TODO: talk about `!` and how it is useful sometimes and how it can be dangerous
 
 ## Switching
 
-To be written
+TODO: explain how we can use the `switch` statement to find out what value is inside an optional. A custom `apply()` function on an extension to `Optional` comes to mind

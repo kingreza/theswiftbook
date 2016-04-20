@@ -68,7 +68,7 @@
 * [Concepts](chapters/concepts.md)
    * [Object Oriented Programming](chapters/object_oriented_programming.md)
    * [Protocol Oriented Programming](chapters/protocol_oriented_programming.md)
-   * [Functional Reactive Programming](chapters/functional_reactive_programming.md)
+   * [Functional, Reactive Programming](chapters/functional_reactive_programming.md)
 * [Extensions](chapters/extensions.md)
    * [Properties](chapters/extension_properties.md)
    * [Functions](chapters/extension_functions.md)

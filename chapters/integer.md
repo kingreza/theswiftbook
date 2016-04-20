@@ -40,7 +40,8 @@ On a 64-bit platform, `maxValue` is `9223372036854775807`, `maxVaue32` is `21474
 
 ## Unsigned
 
-An unsigned integer can contain both a positive and a negative value. To indicate an unsigned integer, you need the `U` character in front of integer types, such as `UInt`, `UInt32`. For example :
+An unsigned integer can only contain positive values. To indicate an unsigned integer, you need the `U` character in front of integer types, such as `UInt`, `UInt32`. For example :
+
 
 ```swift
 let familyMembers : UInt32 = 4
