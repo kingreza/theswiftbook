@@ -28,7 +28,7 @@ print("savingAccount = \(savingAccount)")
 
 ## Signed
 
-Signed integer can be a positive, negative and zero. You can use signed integer, such as `Int`or `Int64`, within their minimum and maximum range of value. You can use the `min` and `max` properties of both `UInt` and `Int` to determine the minimum and maximum values that these data types can hold, as shown here:
+Signed integer can contain either zero, positive or negative values . You can use signed integer, such as `Int`or `Int64`, within their minimum and maximum range of value. You can use the `min` and `max` properties of both `UInt` and `Int` to determine the minimum and maximum values that these data types can hold, as shown here:
 
 ```swift
 let maxValue: Int = Int.max // 1)
@@ -40,12 +40,12 @@ On a 64-bit platform, `maxValue` is `9223372036854775807`, `maxVaue32` is `21474
 
 ## Unsigned
 
-An unsigned integer can only contain positive values. To indicate an unsigned integer, you need the `U` character in front of integer types, such as `UInt`, `UInt32`. For example :
-
+An unsigned integer can contain either the value zero or a positive value. To indicate an unsigned integer, you need the `U` character in front of integer types, such as `UInt`, `UInt32`. For example :
 
 ```swift
 let familyMembers : UInt32 = 4
 let clubMembers: UInt = 4
+let zero = UInt.min //0
 ```
 
 ## Converting
