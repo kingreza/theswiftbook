@@ -20,5 +20,3 @@ TODO: write about the default operators that can be applied to Double such as +,
 
 ## Useful Properties
 TODO: explain properties like `isInfinite`, `isNaN` and `isFinite`
-
-

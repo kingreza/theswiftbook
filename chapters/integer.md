@@ -10,7 +10,7 @@ Here is a simple way of creating an integer:
 let testScore = 100
 ```
 
-This creates a constant called `testScore` and assign a literal value of `100` to it. With [Swift type inference](constants.md), `testScore` is inferred to be of type `Int`. Also, You can declare variables and constants with explicit integer types.
+This creates a constant called `testScore` and assign a literal value of `100` to it. With [Swift type inference](data_types.md), `testScore` is inferred to be of type `Int`. Also, You can declare variables and constants with explicit integer types.
 
 ```swift
 var penalty: Int = -200
@@ -41,6 +41,7 @@ On a 64-bit platform, `maxValue` is `9223372036854775807`, `maxVaue32` is `21474
 ## Unsigned
 
 An unsigned integer can only contain positive values. To indicate an unsigned integer, you need the `U` character in front of integer types, such as `UInt`, `UInt32`. For example :
+
 
 ```swift
 let familyMembers : UInt32 = 4
