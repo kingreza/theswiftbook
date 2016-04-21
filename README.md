@@ -17,6 +17,11 @@ GitHub already gives us many of the tools that we need:
 -   Releases, which will allow us to release official updates of this book, every now and then
 -   The distributed nature of Git, that allows contributors to write and update content, wherever they are and whenever they wish
 
+## Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Report any abuse of the code of conduct to [crowdsourcebooks@gmail.com](mailto:crowdsourcebooks@gmail.com)
+
 ## Writing New Content, Fixing Issues
 This book is entirely made out of Markdown files (MD) and PNG images for figures. There are code snippets as well which will be inside the text itself.
 
