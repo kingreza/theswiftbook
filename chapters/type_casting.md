@@ -2,7 +2,7 @@
 
 TODO: explain what type casting is and give an example where we have to use type casting. For instance, conformance to a protocol and the link the reader to the protocols chapter.
 
-## Safe Type Casting
+## [Safe Type Casting](#safe-type-casting)
 
 TODO: explain the `as?` syntax where you can enquite if a constant or variable is conformant to a protocol or another object
 

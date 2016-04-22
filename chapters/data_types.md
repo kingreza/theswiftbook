@@ -12,7 +12,7 @@ A few main data types that you can use in Swift are:
 
 In this section of The Swift Book you will learn about some of the most important and built-in data types that are used in almost every Swift project that you might be able to get your hands on.
 
-## Type Inference
+## [Type Inference](#type-inference)
 
 Swift doesn't require the programmer to define an explicit data type for values stored in [constants](constants.md) or [variables](variables.md). When you specify a value of `"Hello, World"` to a constant, Swift deducts from the value that the type should be `String`. Here are a few examples:
 

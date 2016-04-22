@@ -2,21 +2,21 @@
 
 TODO: write about what double is and when it is useful and why we should sometimes use it over Int for instance.
 
-## Syntax
+## [Syntax](#syntax)
 
 TODO: write about how we create a double value
 
-## Rounding
+## [Rounding](#rounding)
 
 TODO: write about ceil and floor and why we need them and where we use them
 
-## Converting
+## [Converting](#converting)
 
 TODO: write about converting double to CGFloat and Int and UInt or even String
 
-## Operators
+## [Operators](#operators)
 
 TODO: write about the default operators that can be applied to Double such as +, -, etc. And write about their priorities and using parenthesis to avoid confusion
 
-## Useful Properties
+## [Useful Properties](#useful-properties)
 TODO: explain properties like `isInfinite`, `isNaN` and `isFinite`

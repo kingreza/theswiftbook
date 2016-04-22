@@ -4,7 +4,7 @@ A constant is a storage place for *a value*, with a name and a type which can be
 
 A constant's value cannot be changed after it has been created and named.
 
-## Syntax
+## [Syntax](#syntax)
 
 The `let` statement allows you to create a constant. What follows after `let` is the name of the constant that has to follow the [CamelCase naming convention](https://en.wikipedia.org/wiki/CamelCase).
 
@@ -23,14 +23,14 @@ let nameOfYourConstant: DataTypeOfYourConstant = xyz
 Where `DataTypeOfYourConstant` is the data type.
 
 
-## Why?
+## [Why](#why)
 
 The biggest advantage of using a constant over a variable is that a constant's value cannot be changed after it is assigned. This creates the ease-of-mind feeling when writing code, that you know a constant's value will not be changed while you are working with it.
 
 Constants and structures work hand in hand in creating highly parallelizable and thread-safe code where the objects are not mutated and are passed by value instead of reference.
 
 
-## Implicitly Typed
+## [Implicitly Typed](#implicitly-typed)
 
 A constant can be created simply with the following input to the Swift compiler:
 
@@ -52,7 +52,7 @@ Here is another constant named `person` with the implicit data type of `String`:
 let person = "Foo Bar"
 ```
 
-## Explicitly Typed
+## [Explicitly Typed](#explicitly-typed)
 
 If you want to explicitly define the data type of a constant, you can do that by attaching `:X` to the end of the constant name, where `X` is the data type, such as:
 
@@ -86,7 +86,7 @@ And some prefer to set the data type explicitly so that they can take advantage 
 let up: Direction = .Up
 ```
 
-## Conditional Initialization
+## [Conditional Initialization](#conditional-initialization)
 
 TODO: write about how we can create a constant that doesn't have an initial value and how we can set this value conditionally with if statements later before use
 
