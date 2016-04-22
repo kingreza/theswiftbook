@@ -4,7 +4,7 @@ Swift is a language that borrows some of its features from other languages such 
 
 At the heart of the language are [functions](functions.md), [properties](properties.md), [structures](structures.md) and [classes](classes.md), all of which contribute to the majority of what you see as built-in types and functionality.
 
-[Structures](structures.md) allow you to create thread safe objects that are by design immutable. [Classes](classes.md) on the other hand are reference types and can be mutated without warning. Extra work is required to make a class thread-safe.
+[Structures](structures.md) allow you to create thread safe objects that are passed by value, rather than reference. [Classes](classes.md) on the other hand are reference types and can be mutated without warning. Extra work is required to make a class thread safe whereas a completely immutable structure is by default thread safe.
 
 [Enumerations](enumerations.md) allow you to create a list of similar items, such as apples, oranges, all of which are fruits (the enumeration). Each case in the enumeration represents an item in the list.
 
