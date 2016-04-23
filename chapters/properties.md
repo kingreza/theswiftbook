@@ -1,7 +1,9 @@
 # Defining Properties for Structures
 
-to be written
+TODO: write about how we can have `let` and `var` properties for structures and how they can come from protocols. link to the protocols section. give as many examples as possible
 
-## Property Initialization
+## [Initialization](#initialization)
 
-to be written
+TODO: talk about how properties of a structure can either be initialized at definition time or at init() time
+
+
