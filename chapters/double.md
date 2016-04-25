@@ -1,14 +1,43 @@
 # Double
 
-TODO: write about what double is and when it is useful and why we should sometimes use it over Int for instance.
+The data type `Double` can represent a double precision floating number, that is similar to `Float`, but has more precision over its exponent and fraction values where:
+
+* Exponent: so to speak, is the number that appears behind the dot (e.g. in 123.456, exponent is 123)
+* Fraction: is the number after the dot (456 in the previous example)
+
+By default, a number with a fraction in Swift is of type `Double`, unless specified otherwise explicitly by the programmer.
 
 ## [Syntax](#syntax)
 
-TODO: write about how we create a double value
+Using Swift's [Type Inference](data_types.md#type-inference), you can create an instance of `Double` simply by placing a floating number inside a constant or a variable:
+
+```swift
+let value = 123.456
+value.dynamicType //Double.Type
+```
+
+You can also be explicit about your data type by setting the type of your constant or variables direclty to `Double`, though this is excessive and completely unnecessary:
+
+```swift
+let value: Double = 123.456 //unnecessary data type declaration
+value.dynamicType //Double.Type
+```
 
 ## [Rounding](#rounding)
 
-TODO: write about ceil and floor and why we need them and where we use them
+`Double` values, as mentioned previously, are made out of an exponent and a fraction. Sometimes you might wish to completely discard the fraction part of a Double value and keep the exponent. In that case, you can use the `round(_:)` function that is defined for `Double` as shown here:
+
+```swift
+@warn_unused_result
+public func round(x: Double) -> Double
+```
+
+As you can see, both the argument and the return value of this function are of type `Double`. Here is an example where you can use this function to remove the fraction of a `Double` value and only keep the exponent:
+
+```swift
+let value = 123.456
+let oneTwoThree = round(value) // = 123
+```
 
 ## [Converting](#converting)
 
