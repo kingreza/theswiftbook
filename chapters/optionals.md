@@ -11,7 +11,7 @@ enum Optional<Wrapped> {
 }
 ```
 
-* Some(wrapped): assign some value in the instance of an optional type.
+* Some: assign some value in the instance of an optional type.
 * None: set no value in the instance of an optional type.
 
 `<Wrapped>` means that it is [`generic type`](generics.md). Therefore, you can use optionals with any type. An actual optional type will be determined when an optional variable or constant is declared.
