@@ -41,11 +41,79 @@ let oneTwoThree = round(value) // = 123
 
 ## [Converting](#converting)
 
-TODO: write about converting double to CGFloat and Int and UInt or even String
+Converting other types to `Double` is done through different initailizers that `Double` provides you with, such as the following:
+
+```swift
+extension Double {
+    public init?(_ text: String)
+}
+```
+
+There are many more initializers for `Double` that can take a variety of different [data types](data_types.md) and turn them into `Double` as shown here:
+
+```swift
+let intValue = -123
+let uintValue: UInt = 123
+let floatValue: CGFloat = 123.456
+let strValue = "123.456"
+print(Double(intValue))
+print(Double(uintValue))
+print(Double(floatValue))
+print(Double(strValue))
+```
+
+The initializer in `Double` that takes in a `String` and converts it to `Double` returns an [optional](optionals.md) `String` of type `String?`. The reason behind this is that not every `String` can be converted to `Double`. For instance:
+
+```swift
+Double("Foo Bar") // = nil
+```
+
+Should you wish to convert from `Double` to any other data type, use the destination type's initializer. Here are a few examples:
+
+```swift
+let double = 123.456
+let int = Int(double)
+let float = Float(double)
+let string = String(double)
+```
 
 ## [Operators](#operators)
 
-TODO: write about the default operators that can be applied to Double such as +, -, etc. And write about their priorities and using parenthesis to avoid confusion
+Double has many different types of [operators](operators.md) already defined for it, such as `+`, `-` and `*`. All of these operators have different priorities so to avoid confusion as to which operator gets executed first in a complicated formula, use parenthesis to tell the compiler which equation has to be solved first. The rule is that the innermost parenthesis' value will be calculated first and cascade all the way out to the outermost parenthesis.
+
+Here is an example of an equation that could be quite difficult to guess the result of:
+
+```swift
+let value1 = 1.2
+let value2 = 2.3
+let result = value1 + value2 / value1 + value2
+```
+
+You might assume that you could just resolve these values from left to right, so that we do the addition first, then the division and then the second addition. But this is not the case. What is happening here is that the division has the highest priority out of all the other operators, so first `value2` is being divided by `value1`, the result of which is `1.9166`. Then the compiler notices that there are only 2 operators left to resolve and those are both the `+` operator with the same priority so it resolves the rest of the equation from left to right, adding `value1` to `1.9166` to create `3.1166` and then adds `value2` to `3.1166` to create `5.4166`.
+
+However, if you wish to do the operations in this order:
+
+1. `value1 + value2`
+2. Result of previous step divided by `value1`
+3. Result of previous step added to `value2`
+
+Then you can use parenthesis as shown here:
+
+```swift
+let value1 = 1.2
+let value2 = 2.3
+let result = ((value1 + value2) / value1) + value2
+```
+
+Since the innermost parenthesis gets resolved first, the compiler starts with `(value1 + value2)` and then divides the result of that by `value1` and then adds `value2` to the result of the previous step, as we wanted it to.
 
 ## [Useful Properties](#useful-properties)
-TODO: explain properties like `isInfinite`, `isNaN` and `isFinite`
+
+The `Double` data type is [extendable](extensions.md) but by default has some very very important properties of its own, such as:
+
+* `isInifinite`: that returns a `Bool` value if the current value placed inside the `Double` instance is infinity, as defined by [IEEE 754-1985 (positive and negative infinity definitions)](https://en.wikipedia.org/wiki/IEEE_754-1985#Positive_and_negative_infinity)
+* `isNaN`: returns a `Bool` value indicating if the current `Double` value is Not a Number, or NaN as it is known as well. As defined by [IEEE_754-1985 (NaN definition)](https://en.wikipedia.org/wiki/IEEE_754-1985#NaN) again, Nan is:
+
+> Some operations of floating-point arithmetic are invalid, such as dividing by zero or taking the square root of a negative number. The act of reaching an invalid result is called a floating-point exception. An exceptional result is represented by a special code called a NaN, for "Not a Number"
+
+* `isZero`: as its name describes, returns a `Bool` value that is `true` if the given value is zero.
