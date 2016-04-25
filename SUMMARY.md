@@ -34,6 +34,7 @@
    * [Instantiation](chapters/struct_instantiation.md)
    * [Nested](chapters/nested_structures.md)
 * [Classes](chapters/classes.md)
+   * [Initializers](chapters/class_initializers.md)
    * [Inheritance](chapters/inheritance.md)
    * [Overriding](chapters/overriding.md)
    * [Nested](chapters/nested_classes.md)

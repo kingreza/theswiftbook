@@ -1,12 +1,10 @@
 # Classes
 
-## Why?
+TODO: write about what classes are but don't say how they are different from structs cause that's a sub section for itself
 
-to be written
+## [Versus Structures](#versus-structures)
 
-## Syntax
-
-to be written
+TODO: tell the reader what differences classes and structures have with one another
 
 ## Limitations
 
