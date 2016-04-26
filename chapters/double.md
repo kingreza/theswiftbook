@@ -16,7 +16,7 @@ let value = 123.456
 value.dynamicType //Double.Type
 ```
 
-You can also be explicit about your data type by setting the type of your constant or variables direclty to `Double`, though this is excessive and completely unnecessary:
+You can also be explicit about your data type by setting the type of your constants or variables direclty to `Double`, though this is excessive and completely unnecessary:
 
 ```swift
 let value: Double = 123.456 //unnecessary data type declaration
@@ -25,7 +25,7 @@ value.dynamicType //Double.Type
 
 ## [Rounding](#rounding)
 
-`Double` values, as mentioned previously, are made out of an exponent and a fraction. Sometimes you might wish to completely discard the fraction part of a Double value and keep the exponent. In that case, you can use the `round(_:)` function that is defined for `Double` as shown here:
+`Double` values, as mentioned previously, are made out of an exponent and a fraction. Sometimes you might wish to completely discard the fraction part of a `Double` value and keep the exponent. In that case, you can use the `round(_:)` function that is defined for `Double` as shown here:
 
 ```swift
 @warn_unused_result
@@ -41,7 +41,7 @@ let oneTwoThree = round(value) // = 123
 
 ## [Converting](#converting)
 
-Converting other types to `Double` is done through different initailizers that `Double` provides you with, such as the following:
+Converting other types to `Double` is done through different initializers that `Double` provides you with, such as the following:
 
 ```swift
 extension Double {
@@ -54,27 +54,39 @@ There are many more initializers for `Double` that can take a variety of differe
 ```swift
 let intValue = -123
 let uintValue: UInt = 123
-let floatValue: CGFloat = 123.456
-let strValue = "123.456"
-print(Double(intValue))
-print(Double(uintValue))
-print(Double(floatValue))
-print(Double(strValue))
+let floatValue: Float = 123.456
+print(Double(intValue)) //"-123.0"
+print(Double(uintValue)) //"123.0"
+print(Double(floatValue)) //"123.456"
 ```
 
 The initializer in `Double` that takes in a `String` and converts it to `Double` returns an [optional](optionals.md) `String` of type `String?`. The reason behind this is that not every `String` can be converted to `Double`. For instance:
 
 ```swift
+let strValue = "123.456"
+print(Double(strValue)) //"Optional(123.456)"
+
 Double("Foo Bar") // = nil
+```
+
+If you want to grab the string value from the conversion, you need to learn about [optionals](optionals.md) in order to safely unwrap the optional value as shown here:
+
+```swift
+let strValue = "123.456"
+if let value = Double(strValue){
+  //value = 123.456
+} else {
+  //failed to convert the string to the double value
+}
 ```
 
 Should you wish to convert from `Double` to any other data type, use the destination type's initializer. Here are a few examples:
 
 ```swift
 let double = 123.456
-let int = Int(double)
-let float = Float(double)
-let string = String(double)
+let int = Int(double) //123
+let float = Float(double) //123.456
+let string = String(double) //"123.456"
 ```
 
 ## [Operators](#operators)
@@ -112,7 +124,7 @@ Since the innermost parenthesis gets resolved first, the compiler starts with `(
 The `Double` data type is [extendable](extensions.md) but by default has some very very important properties of its own, such as:
 
 * `isInifinite`: that returns a `Bool` value if the current value placed inside the `Double` instance is infinity, as defined by [IEEE 754-1985 (positive and negative infinity definitions)](https://en.wikipedia.org/wiki/IEEE_754-1985#Positive_and_negative_infinity)
-* `isNaN`: returns a `Bool` value indicating if the current `Double` value is Not a Number, or NaN as it is known as well. As defined by [IEEE_754-1985 (NaN definition)](https://en.wikipedia.org/wiki/IEEE_754-1985#NaN) again, Nan is:
+* `isNaN`: returns a `Bool` value indicating if the current `Double` value is Not a Number, or NaN as it is known as well. As defined by [IEEE 754-1985 (NaN definition)](https://en.wikipedia.org/wiki/IEEE_754-1985#NaN) again, Nan is:
 
 > Some operations of floating-point arithmetic are invalid, such as dividing by zero or taking the square root of a negative number. The act of reaching an invalid result is called a floating-point exception. An exceptional result is represented by a special code called a NaN, for "Not a Number"
 
