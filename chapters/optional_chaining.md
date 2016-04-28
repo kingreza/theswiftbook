@@ -51,7 +51,7 @@ func processNameFor(person: Person?){
     return
   }
   
-  //now we have access to str that is the actual name of a person
+  //now we have access to name that is the actual name of a person
   
 }
 ```
@@ -65,6 +65,8 @@ The general syntax for optional chaining is:
 ```swift
 let someOptionalValue = optional1?.optional2?.optional3
 ```
+
+The return value of optional chaining is always an optional value. You can then use 
 
 ## [In Dictionaries](#in-dictionaries)
 
