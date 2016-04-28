@@ -35,7 +35,7 @@ func processNameFor(person: Person?){
 }
 ```
 
-This can easily get quite cumbersome to type and difficult understand. The solution to this is using Swift's optional chaining capabilities to read the `value` field of the `name` property of the `Person` instance only if the person exist and has a valid `Name` instance set for it.
+This can easily get quite cumbersome to type and difficult understand. The solution to this is using Swift's optional chaining capabilities to the optional values safely.
 
 ## [Usage](#usage)
 
