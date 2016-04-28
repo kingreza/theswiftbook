@@ -14,7 +14,7 @@ struct Person{
 }
 ```
 
-A `Person` structure has an optional property called `name` of type `Name` and the `Name` structure has an optional `value` property that holds a person's name essentially.
+A `Person` structure has an optional property called `name` of type `Name` and the `Name` structure has an optional `value` property that can hold a person's name.
 
 Now you are tasked with writing a function called `processNameFor(_:)` that takes in an optional instance of `Person` (as in `Person?`), and does some work with that person's name.
 
