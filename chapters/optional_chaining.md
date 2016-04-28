@@ -66,7 +66,7 @@ The general syntax for optional chaining is:
 let someOptionalValue = optional1?.optional2?.optional3
 ```
 
-The return value of optional chaining is always an optional value. You can then use 
+The return value of optional chaining is always an optional value. You can then [safely unwrap](optionals.md#safely-unwrapping) the optional to read its value.
 
 ## [In Dictionaries](#in-dictionaries)
 
