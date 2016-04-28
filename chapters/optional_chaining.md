@@ -94,17 +94,17 @@ let dict = [
     ],
     "key1.2" : [
       "key1.2.1" : "value1.2.1",
-      "key1.2.2" : "value1.2.2",
+      "key1.2.2" : "value1.2.2"
     ]
   ],
   "key2" : [
     "key2.1" : [
       "key2.1.1" : "value2.1.1",
-      "key2.1.2" : "value2.1.2",
+      "key2.1.2" : "value2.1.2"
     ],
     "key2.2" : [
       "key2.2.1" : "value2.2.1",
-      "key2.2.2" : "value2.2.2",
+      "key2.2.2" : "value2.2.2"
     ]
   ]
 ]
