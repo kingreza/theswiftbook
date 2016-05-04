@@ -5,6 +5,7 @@ Structures and Classes make up the building blocks of your code. Lets start by l
 In Swift, defining a new Structure is simple. 
 
 ## [Syntax](#syntax)
+
 ````Swift
 struct Person {
   
