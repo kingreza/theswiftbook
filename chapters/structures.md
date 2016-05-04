@@ -46,7 +46,7 @@ struct Person {
 }
 ````
 
-In Swift, strucdtures like classes can extending, we will cover this in more details 
+In Swift, structures like classes can extending, we will cover this in more details 
 
 TODO: just give a few examples of how a structure can be created and even create them from different protocols perhpas and then link to protocols
 
