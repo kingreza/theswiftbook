@@ -1,8 +1,8 @@
 # Structures
 
-Structures and Classes make up the building blocks of your code. We are going to start with Structures, their syntax and general purpose. Then we will highlight how they are like Classes and then we will at look what makes them different
+Structures and Classes make up the building blocks of your code. We are going to start with Structures, their syntax and general purpose. Then we will highlight how they are like Classes and then finish with what makes them different
 
-Structures, much like Classes can hold your variables and functions. In Swift, defining a new Structure is simple. 
+In Swift, defining a new Structure is simple. 
 
 ## [Syntax](#syntax)
 ````Swift
@@ -10,14 +10,14 @@ struct Person {
   
 }
 ````
-As mentioned earlier, Structures, much like classes can have properties that will store values.
+Structures, much like Classes can have properties that will store values.
 
 ````Swift
 struct Person {
   var name: String = "John Doe"
 }
 ````
-They can also have methods that add functionality to the the Strutucture.
+They can also have methods that add functionality to the Structure.
 
 ````Swift
 struct Person {
@@ -28,7 +28,7 @@ struct Person {
   }
 }
 ````
-Like Classes Strucutres can also have initializers that set up their initial state.
+Like Classes, Structures can also have initializers that set up their initial state.
 
 ````Swift
 struct Person {
@@ -45,7 +45,7 @@ struct Person {
   }
 }
 ````
-In Swift, Strucutures like classes can also be extended. Assuming the structure define aboved exists somewhere in our project we can extend its functionality, just as we can in Classes somewhere else in our code 
+In Swift, Structures like classes can also be extended. Assuming the structure defined aboved exists somewhere in our project we can extend its functionality, just as we can in Classes somewhere else in our code 
 
 ````Swift
 extension Person {
@@ -56,6 +56,8 @@ extension Person {
   }
 }
 ````
+
+Strucutres, like Classes 
 
 TODO: just give a few examples of how a structure can be created and even credate them from different protocols perhpas and then link to protocols
 
