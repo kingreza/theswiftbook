@@ -10,13 +10,43 @@ struct Person {
   
 }
 ````
-As mentioned earlier, Structures, much like classes can have properties that will store values,
+As mentioned earlier, Structures, much like classes can have properties that will store values.
 
 ````Swift
 struct Person {
   var name: String = "John Doe"
 }
 ````
+They can also have methods that add functionality to the the Strutucture.
+
+````Swift
+struct Person {
+  var name: String = "John Doe"
+
+  func printName() {
+    print(self.name)
+  }
+}
+````
+Like Classes Strucutres can also have initializers that set up their initial state.
+
+````Swift
+struct Person {
+  var name: String = "John Doe"
+  var favoriteMovies: [String]
+  
+  init(favoriteMovies: [String])
+  {
+    self.favoriteMovies = favoriteMovies
+  }
+  
+  func printName() {
+    print(self.name)
+  }
+}
+````
+
+In Swift, Strucutdures like classes can extending, we will cover this in more details 
 
 TODO: just give a few examples of how a structure can be created and even create them from different protocols perhpas and then link to protocols
 
