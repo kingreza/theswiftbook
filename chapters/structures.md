@@ -6,21 +6,21 @@ In Swift, defining a new Structure is simple.
 
 ## [Syntax](#syntax)
 
-````Swift
+```Swift
 struct Person {
   
 }
-````
+```
 Structures, much like Classes can have properties that will store values.
 
-````Swift
+```Swift
 struct Person {
   var name: String = "John Doe"
 }
-````
+```
 They can also have methods that add functionality to the Structure.
 
-````Swift
+```Swift
 struct Person {
   var name: String = "John Doe"
 
@@ -28,10 +28,10 @@ struct Person {
     print(self.name)
   }
 }
-````
+```
 Like Classes, Structures can also have initializers that set up their initial state.
 
-````Swift
+```Swift
 struct Person {
   var name: String = "John Doe"
   var favoriteMovies: [String]
@@ -45,10 +45,10 @@ struct Person {
     print(self.name)
   }
 }
-````
-In Swift, Structures like classes can also be extended. Assuming the structure defined aboved exists somewhere in our project we can extend its functionality, just as we can in Classes somewhere else in our code 
+```
+In Swift, Structures like classes can also be extended. Assuming the structure defined above exists somewhere in our project, we can extend its functionality. 
 
-````Swift
+```Swift
 extension Person {
   func printFavoriteMovies() {
     for movie in favoriteMovies {
@@ -56,11 +56,11 @@ extension Person {
     }
   }
 }
-````
+```
 
 Structures, like Classes can conform to protocols.
 
-````Swift
+```Swift
 protocol NameReversible {
   func printNameInReverse()
 }
@@ -81,11 +81,11 @@ struct Person: NameReversible {
     print(String(self.name.characters.reverse()))
   }
 }
-````
+```
 
 There is no difference between protocols used by structures or classes. For example the Hashable and Equtable protocols which are standard Swift protocols can be used on either a Class or a Structure. 
 
-````Swift
+```Swift
 struct Person: Hashable, Equatable {
   let uniqueId: Int
   let name: String
@@ -109,31 +109,31 @@ struct Person: Hashable, Equatable {
 func ==(lhs: Person, rhs: Person) -> Bool {
   return lhs.uniqueId == rhs.uniqueId
 }
-````
+```
 
 Once the structure is defined it can be instantiated like class.
 
-````Swift
+```Swift
 var joe = Person(uniqueId: 1, name: "Joe Example", favoriteMovies: ["Titanic", "Star Wars"])
 
 var jane = Person(uniqueId: 1, name: "Jane Example", favoriteMovies: ["ET", "Avatar"])
-````
+```
 
-Once instantiated, you access the properties and call the methods within a Strucuture much like a class instance.
+Once instantiated, you access the properties and call the methods within a Structure much like a class instance.
 
-````Swift
+```Swift
 let jane = Person(uniqueId: 1, name: "Jane Example", favoriteMovies: ["ET", "Avatar"])
 let joe = Person(uniqueId: 1, name: "Joe Example", favoriteMovies: ["Titanic", "Star Wars"])
 
 joe.printName()
 jane.printFavoriteMovies()
-````
+```
 The code above will output
-````
+```
 Joe Example
 ET
 Avatar
-````
+```
 
 ## [Versus Classes](#versus-classes)
 
@@ -143,10 +143,10 @@ Now that we know how to build Structures and how they are similar to Classes, le
 
 ![](Screen Shot 2016-05-04 at 1.00.30 AM.png)
 
-**Strucutures cannot be type casted or downcasted** Typecasting is used check class's type or cast it as another type within its inheritance hierarchy.  TODO: is it because struct are value types and classes are reference types and data types lack a type definiton once memory is allocated for them? need better understanding of this
+**Structures cannot be type casted or downcasted** Typecasting is used check class's type or cast it as another type within its inheritance hierarchy.  TODO: is it because struct are value types and classes are reference types and data types lack a type definition once memory is allocated for them? need better understanding of this
 
 **Structures cannot use the `deinit` keyword to deallocate resources assigned**
-**Structures cannot have multiple references to the same isntance**
+**Structures cannot have multiple references to the same instance**
 
 and perhaps more importantly Structures are value types and Classes are reference types.
 
