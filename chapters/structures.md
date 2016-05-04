@@ -45,8 +45,17 @@ struct Person {
   }
 }
 ````
+In Swift, stddructures like classes can also be extended. Assuming the structure define aboved exists somewhere in our project we can extend its functionality, just as we can in Classes somewhere else in our code 
 
-In Swift, structures like classes can extending, we will cover this in more details 
+````Swift
+extension Person {
+  func printFavoriteMovies() {
+    for movie in favoriteMovies {
+      print(movie)
+    }
+  }
+}
+````
 
 TODO: just give a few examples of how a structure can be created and even create them from different protocols perhpas and then link to protocols
 
