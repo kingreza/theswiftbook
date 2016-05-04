@@ -45,7 +45,7 @@ struct Person {
   }
 }
 ````
-In Swift, stddructures like classes can also be extended. Assuming the structure define aboved exists somewhere in our project we can extend its functionality, just as we can in Classes somewhere else in our code 
+In Swift, Strucutures like classes can also be extended. Assuming the structure define aboved exists somewhere in our project we can extend its functionality, just as we can in Classes somewhere else in our code 
 
 ````Swift
 extension Person {
