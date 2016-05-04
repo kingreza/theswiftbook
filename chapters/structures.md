@@ -142,6 +142,14 @@ Now that we know how to build Structures and how they are similar to Classes, le
 
 ![](Screen Shot 2016-05-04 at 1.00.30 AM.png)
 
-**Strucutures cannot reveal their type during runtime through type casting** Typecasting is used check class's type or use it as another type within its inheritance hierarchy. This will be covered in more depth in later chapters but it's worth noting for now, that typecasting cannot be used with Strucutures. For one this is due to the fact they cannot inherit.
+**Strucutures cannot be type casted or downcasted** Typecasting is used check class's type or cast it as another type within its inheritance hierarchy.  TODO: is it because struct are value types and classes are reference types and data types lack a type definiton once memory is allocated for them? need better understanding of this
+
+**Structures cannot use the `deinit` keyword to deallocate resources assigned**
+**Structures cannot have multiple references to the same isntance**
+
+and perhaps more importantly Structures are value types and Classes are reference types.
+
+TODO: Do example
+
 
 
