@@ -1,6 +1,6 @@
 # Structures
 
-Structures and Classes make up the building blocks of your code. We are going to start with Structures, their syntax and general purpose. Then we will highlight how they are like Classs and then we will at look what makes them different
+Structures and Classes make up the building blocks of your code. We are going to start with Structures, their syntax and general purpose. Then we will highlight how they are like Classes and then we will at look what makes them different
 
 Structures, much like Classes can hold your variables and functions. In Swift, defining a new Structure is simple. 
 
@@ -57,7 +57,7 @@ extension Person {
 }
 ````
 
-TODO: just give a few examples of how a structure can be created and even create them from different protocols perhpas and then link to protocols
+TODO: just give a few examples of how a structure can be created and even credate them from different protocols perhpas and then link to protocols
 
 ## [Versus Classes](#versus-classes)
 
