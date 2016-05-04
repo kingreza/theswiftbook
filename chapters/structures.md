@@ -142,4 +142,6 @@ Now that we know how to build Structures and how they are similar to Classes, le
 
 ![](Screen Shot 2016-05-04 at 1.00.30 AM.png)
 
-**Strucutures cannot reveal their type during runtime through type casting
+**Strucutures cannot reveal their type during runtime through type casting** Typecasting is used check class's type or use it as another type within its inheritance hierarchy. This will be covered in more depth in later chapters but it's worth noting for now, that typecasting cannot be used with Strucutures. For one this is due to the fact they cannot inherit.
+
+
